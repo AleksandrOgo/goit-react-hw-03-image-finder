@@ -3,12 +3,12 @@ import { Notify } from 'notiflix/build/notiflix-notify-aio';
 
 import { SearchBar } from './SearchBar/SearchBar';
 import { ImageGallery } from './ImageGallery/ImageGallery';
-import { Button } from '../Button.js/Button';
+import { Button } from './Button/Button.js';
 
 import { fetchImages } from '../api';
 import { Loader } from './Loader/Loader';
 
-import { MainContainer } from './App/App.styled';
+import { MainContainer } from './App.styled';
 
 export class App extends Component {
   state = {
